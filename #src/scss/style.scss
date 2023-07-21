@@ -423,7 +423,8 @@ p {
 .contacts-sec__descp {
 	display: flex;
 	flex-direction: column;
-	margin-right: 15px;
+	flex: 0 0 300px;
+	margin-right: 25px;
 	z-index: 5;
 }
 
