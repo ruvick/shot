@@ -3,6 +3,15 @@
 @import "mixins";
 
 @font-face {
+	font-family: "Kazmann-Sans";
+	src: url("../fonts/Kazmann-Sans.eot");
+	src: local("☺"), url("../fonts/Kazmann-Sans.woff") format("woff"), url("../fonts/Kazmann-Sans.ttf") format("truetype"),
+		url("../fonts/Kazmann-Sans.svg") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: "Lato";
 	src: url("../fonts/Lato-Regular.eot");
 	src: local("☺"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"),
@@ -263,7 +272,7 @@ p {
 }
 
 .main-banner__title {
-	// font-family: Kazmann Sans;
+	font-family: 'Kazmann-Sans';
 	font-size: 100px;
 	font-weight: 400;
 	line-height: 110px;
