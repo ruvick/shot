@@ -324,6 +324,139 @@ p {
 
 //========================================================================================================================================================
 
+.contacts-sec__box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 54px 82px 83px 108px;
+	border-radius: 15px;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: url('../img/contacts-bg.jpg') 0 0 no-repeat;
+}
+
+.contacts-sec__nuar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.contacts-sec__descp {
+	display: flex;
+	flex-direction: column;
+	margin-right: 15px;
+	z-index: 5;
+}
+
+.contacts-sec__title {
+	font-size: 42px;
+	font-weight: 500;
+	line-height: 50px;
+	letter-spacing: 0em;
+	margin-left: 23px;
+	margin-bottom: 37px;
+	z-index: 5;
+}
+
+.contacts-sec__tel {
+	position: relative;
+	display: flex;
+	align-items: center;
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 42px;
+	letter-spacing: 0em;
+	margin-bottom: 3px;
+
+	svg {
+		width: 10.7px;
+		height: 24px;
+		margin-right: 13px;
+	}
+}
+
+.contacts-sec__callback {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0em;
+	margin-left: 23px;
+	margin-bottom: 16px;
+}
+
+.contacts-sec__mail {
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0em;
+	margin-bottom: 20px;
+
+	svg {
+		width: 18.4px;
+		height: 13px;
+		margin-right: 9px;
+	}
+}
+
+.contacts-sec__address {
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0em;
+
+	svg {
+		width: 11px;
+		height: 16px;
+		margin-right: 13px;
+	}
+}
+
+.contacts-sec__form {
+	max-width: 857px;
+	width: 100%;
+	z-index: 5;
+
+	.form__line {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.input {
+		flex: 0 1 48.2%;
+	}
+
+	button {
+		flex: 0 1 48.2%;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	.form__error {
+		position: absolute;
+		bottom: 100px;
+	}
+}
+
+.contacts-sec__form-policy {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	margin-top: 10px;
+}
+
+//========================================================================================================================================================
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 //<Адаптив>===========================================================================================================================================
