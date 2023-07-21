@@ -242,9 +242,14 @@ p {
 //===================================================================================================================================
 
 .main-banner {
-	padding: 115px 0;
+	position: relative;
+	padding: 115px 0 294px 0;
 	min-height: 737px;
 	background-color: #EDEDED;
+
+	.nuar_blk {
+		display: none;
+	}
 
 	// background-repeat: no-repeat;
 	// background-position: 0 0;
@@ -252,10 +257,10 @@ p {
 	// background-image: url('../img/main-banner');
 }
 
-// .main-banner__descp {
-// 	max-width: 660px;
-// 	width: 100%;
-// }
+.main-banner__descp {
+	z-index: 5;
+	position: relative;
+}
 
 .main-banner__title {
 	// font-family: Kazmann Sans;
@@ -273,6 +278,28 @@ p {
 	font-weight: 400;
 	line-height: 38px;
 	letter-spacing: 0em;
+}
+
+.main-banner__img {
+	position: absolute;
+	top: 11.5%;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 980px;
+	height: 664px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('../img/main-bg.png');
+}
+
+.main-banner__img-circle {
+	width: 783px;
+	height: 783px;
+	overflow: hidden;
+	border-radius: 50%;
 }
 
 //========================================================================================================================================================
